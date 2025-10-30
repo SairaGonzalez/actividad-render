@@ -26,7 +26,7 @@ body {
   width: 90%;
   min-height: 80vh;
   padding: 20px;
-  background-color: #e6e6e6eb;
+  background-color: #aabbdad8;
   border-radius: 12px;
   text-align: center;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
@@ -37,7 +37,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   gap: 20px;
-  background-color: #ffffffcc;
+  background-color: #eeeeeecc;
   width: 100%;
   padding: 15px;
   border-radius: 10px;
@@ -79,9 +79,17 @@ body {
   margin: 20px 0;
 }
 
-.video {
-  color: #005dcc;
-  padding: 10px 15px;
+a {
+  text-decoration: none;
+  color: #2020e7;
+}
+
+a:visited {
+  color: navy;
+}
+
+a:hover {
+  background-color: #3434a065;
 }
 
 .video-embebido p {
@@ -92,25 +100,18 @@ body {
 .footer {
   display: flex;
   flex-direction: column;
-  background-color: #ffffffcc;
+  background-color: #eeeeeecc;
   width: 100%;
   padding: 15px;
   border-radius: 10px;
-  font-size: 0.9rem;
   color: #333333;
   line-height: 1.5;
-  gap: 10px;
 }
 
 .footer .fila {
   display: flex;
   justify-content: space-evenly;
   text-align: center;
-}
-
-.footer .fila1,
-.footer .fila2 {
-  flex-direction: row-reverse;
 }
 
 footer .correo {
